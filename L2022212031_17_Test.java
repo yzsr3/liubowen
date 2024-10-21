@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class L2022212031_17_Test {
+    // 等价类划分
 
     // 创建一个 Solution 实例
     private Solution solution = new Solution();
@@ -36,8 +37,8 @@ public class L2022212031_17_Test {
         assertTrue(result.contains("AAAAACCCCC")); // 期望包含"AAAAACCCCC"
         assertTrue(result.contains("CCCCCAAAAA")); // 期望包含"CCCCCAAAAA"
     }
-
     // 测试用例：输入全为相同字符的DNA序列
+    // 且长度过10
     @Test
     public void testHomogeneousDnaSequence() {
         String s = "AAAAAAAAAAA";
